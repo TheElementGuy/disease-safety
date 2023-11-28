@@ -19,3 +19,7 @@ p {
 .non-underline-link {
     text-decoration: none;
 }
+#disclaimer {
+    position: sticky;
+    top: 20%;
+}

@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 .material-symbols-outlined {
     font-size: 1.4em;
     position: relative;
-    top: 0.14em;
+    top: 0.28em;
 }
 p {
     font-family: "Open Sans", sans-serif;
@@ -21,5 +21,5 @@ p {
 }
 #disclaimer {
     position: sticky;
-    top: 20%;
+    top: 2%;
 }

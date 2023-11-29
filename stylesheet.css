@@ -22,6 +22,7 @@ p {
 #disclaimer {
     position: sticky;
     top: 2%;
+    z-index: 10;
 }
 .material-symbols-rounded {
   font-variation-settings:

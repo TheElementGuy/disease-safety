@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Material Symbols Outlined
+- Font Author: Copyright 2022, 2022 Google LLC.  All Rights Reserved.
+- Font Source: http://fonts.gstatic.com/s/materialsymbolsoutlined/v153/kJF1BvYX7BgnkSrUwT8OhrdQw4oELdPIeeII9v6oDMzByHX9rA6RzaxHMPdY43zj-jCxv3fzvRNU22ZXGJpEpjC_1v-p_4MrImHCIJIZrDCvHOembd5zrTgt.ttf
+- Font License: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html))

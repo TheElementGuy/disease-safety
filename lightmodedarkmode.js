@@ -1,4 +1,4 @@
-function toggleDarkMode() {
+function toggleContrast() {
     let themeButton = document.getElementById("themeButton");
     if (themeButton.innerHTML == "dark_mode") {
         themeButton.innerHTML = "light_mode";

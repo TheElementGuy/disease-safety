@@ -19,16 +19,18 @@
         <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
         <link rel="manifest" href="site.webmanifest">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <script src="lightmodedarkmode.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
     </head>
     <body>
-        <header class="w3-container w3-black">
-            <h1><span class="material-symbols-outlined">microbiology</span>Disease Safety</h1>
+        <header class="w3-container w3-theme">
+            <h1><span class="material-symbols-outlined" id="microbiology-icon">microbiology</span>Disease Safety<span class="w3-button w3-right w3-round-xxlarge material-symbols-outlined" onclick="toggleContrast();" id="themeButton">dark_mode</span></h1>
         </header>
         <div id="main-content" class="w3-container">
-            <div id="disclaimer" class="w3-panel w3-grey w3-margin-left w3-margin-right">
-                <span onclick="this.parentElement.style.display='none'" class="w3-hover-black w3-button w3-large w3-display-topright material-symbols-rounded w3-text-large">close</span>
+            <div id="disclaimer" class="w3-panel w3-theme-l3 w3-margin-left w3-margin-right">
+                <span onclick="this.parentElement.style.display='none'" class="w3-hover-theme w3-button w3-large w3-display-topright material-symbols-rounded w3-text-large">close</span>
                 <h3>DISCLAIMER</h3>
-                <p>I do not have a medical license, and I am not distributing medical advice. Ask you primary care physician for more information.</p>
+                <p>I do not have a medical license, and I am not distributing medical advice. Ask your primary care physician for more information.</p>
             </div>
             <div class="w3-container">
                 <h2>Pages</h2>

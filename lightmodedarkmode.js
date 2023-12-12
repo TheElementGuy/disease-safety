@@ -6,8 +6,8 @@ function toggleContrast() {
         themeButton.innerHTML = "dark_mode"
     }
     let themeL3Elements = document.getElementsByClassName("w3-theme-l3");
-    for (let i = 0; i < array.length; i++) {
-        const element = array[i];
+    for (let i = 0; i < themeL3Elements.length; i++) {
+        const element = themeL3Elements[i];
         element.className = element.className.replace("w3-theme-l3", "w3-theme-d3");
     }
 }

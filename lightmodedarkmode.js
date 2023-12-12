@@ -31,7 +31,7 @@ function toggleContrast() {
             allElements[i].className = classes.replace("w3-theme-d2", "w3-theme-l2")
         } else if (classes.includes("w3-hover-black")) {
             allElements[i].className = classes.replace("w3-hover-black", "w3-hover-white")
-        } else if (classes.includes("w3-hover -white")) {
+        } else if (classes.includes("w3-hover-white")) {
             allElements[i].className = classes.replace("w3-hover-white", "w3-hover-black")
         }
     }

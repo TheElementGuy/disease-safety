@@ -12,7 +12,7 @@ function toggleContrast() {
         if (classes.includes("w3-theme-l3")) {
             allElements[i].className = classes.replace("w3-theme-l3", "w3-theme-d3")
         } else if (classes.includes("w3-theme-d3")) {
-            allElements[i].className = classes.replace("w3-theme-l3", "w3-theme-l3")
+            allElements[i].className = classes.replace("w3-theme-d3", "w3-theme-l3")
         }
     }
 }

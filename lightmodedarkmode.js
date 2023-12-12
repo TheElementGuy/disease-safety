@@ -21,6 +21,14 @@ function toggleContrast() {
             allElements[i].className = classes.replace("w3-theme-l4", "w3-theme-d4")
         } else if (classes.includes("w3-theme-d4")) {
             allElements[i].className = classes.replace("w3-theme-d4", "w3-theme-l4")
+        }else if (classes.includes("w3-theme-l1")) {
+            allElements[i].className = classes.replace("w3-theme-l1", "w3-theme-d1")
+        } else if (classes.includes("w3-theme-d1")) {
+            allElements[i].className = classes.replace("w3-theme-d1", "w3-theme-l1")
+        } else if (classes.includes("w3-theme-l2")) {
+            allElements[i].className = classes.replace("w3-theme-l2", "w3-theme-d2")
+        } else if (classes.includes("w3-theme-d2")) {
+            allElements[i].className = classes.replace("w3-theme-d2", "w3-theme-l2")
         }
     }
 }

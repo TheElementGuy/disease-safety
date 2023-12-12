@@ -1,5 +1,5 @@
 function toggleContrast() {
-    if (!window.localStorage.getItem("darkMode") == "true") {
+    if (window.localStorage.getItem("darkMode") == "false") {
         document.getElementById("theme-button").innerHTML = "light_mode";
         window.localStorage.setItem("darkMode", "true");
     } else {

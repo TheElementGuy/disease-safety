@@ -1,7 +1,7 @@
 var dark = false;
 function toggleContrast() {
-    if (dark) {
-        dark = false;
+    if (!dark) {
+        dark = true;
         let themeL3Elements = document.getElementsByClassName("w3-theme-l3");
         //let themeD3Elements = document.getElementsByClassName("w3-theme-d3");
         let themeL5Elements = document.getElementsByClassName("w3-theme-l5");
@@ -23,7 +23,7 @@ function toggleContrast() {
         //    element.className = element.className.replace("w3-theme-d5", "w3-theme-l5");
         //}
     } else {
-        dark = true;
+        dark = false;
         //let themeL3Elements = document.getElementsByClassName("w3-theme-l3");
         let themeD3Elements = document.getElementsByClassName("w3-theme-d3");
         //let themeL5Elements = document.getElementsByClassName("w3-theme-l5");

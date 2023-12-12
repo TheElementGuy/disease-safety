@@ -1,4 +1,4 @@
-var dark;
+var dark = false;
 function toggleContrast() {
     if (dark) {
         dark = false;

@@ -2,6 +2,7 @@ var dark = false;
 function toggleContrast() {
     if (!dark) {
         dark = true;
+        document.getElementById("theme-button").innerHTML = "light_mode";
         let themeL3Elements = document.getElementsByClassName("w3-theme-l3");
         //let themeD3Elements = document.getElementsByClassName("w3-theme-d3");
         let themeL5Elements = document.getElementsByClassName("w3-theme-l5");
@@ -24,6 +25,7 @@ function toggleContrast() {
         //}
     } else {
         dark = false;
+        document.getElementById("theme-button").innerHTML = "dark_mode";
         //let themeL3Elements = document.getElementsByClassName("w3-theme-l3");
         let themeD3Elements = document.getElementsByClassName("w3-theme-d3");
         //let themeL5Elements = document.getElementsByClassName("w3-theme-l5");
